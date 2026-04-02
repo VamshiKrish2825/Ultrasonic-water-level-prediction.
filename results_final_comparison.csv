@@ -1,0 +1,17 @@
+Model,Type,R²,MAE,RMSE,Quality
+Stacking Ensemble,Ensemble,0.9951,0.6042,0.7039,✅ Excellent
+Extra Trees (Tuned),Tuned,0.9939,0.6622,0.7825,✅ Excellent
+Gradient Boosting (Tuned),Tuned,0.9935,0.6901,0.8078,✅ Excellent
+SVR,Baseline,0.9926,0.6804,0.8627,✅ Excellent
+Extra Trees,Baseline,0.9913,0.7886,0.938,✅ Excellent
+Linear Regression,Baseline,0.9909,0.8478,0.9553,✅ Excellent
+Voting Ensemble,Ensemble,0.9906,0.8689,0.9727,✅ Excellent
+ANN (MLP),Baseline,0.9893,0.8561,1.0362,✅ Excellent
+Gradient Boosting,Baseline,0.9859,1.0423,1.1921,✅ Excellent
+Random Forest,Baseline,0.9854,1.0426,1.2123,✅ Excellent
+Lasso,Baseline,0.984,1.1161,1.2691,✅ Excellent
+AdaBoost,Baseline,0.9817,1.1481,1.3564,✅ Excellent
+Decision Tree,Baseline,0.981,1.119,1.3844,✅ Excellent
+ElasticNet,Baseline,0.9801,1.225,1.4147,✅ Excellent
+Ridge,Baseline,0.9783,1.2483,1.4794,✅ Excellent
+KNN,Baseline,0.9722,1.3714,1.6753,✅ Excellent

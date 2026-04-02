@@ -1,0 +1,13 @@
+Model,Features,MAE,RMSE,MAPE (%),R²,Adj R²,Quality,Train Time (s)
+SVR,orig,0.6804,0.8627,11.77,0.9926,0.9789,✅ Excellent,0.01
+Extra Trees,eng,0.7886,0.938,13.65,0.9913,N/A (n≤p),✅ Excellent,0.248
+Linear Regression,orig,0.8478,0.9553,17.83,0.9909,0.9741,✅ Excellent,0.045
+ANN (MLP),orig,0.8561,1.0362,15.17,0.9893,0.9696,✅ Excellent,0.38
+Gradient Boosting,eng,1.0423,1.1921,19.44,0.9859,N/A (n≤p),✅ Excellent,0.341
+Random Forest,eng,1.0426,1.2123,16.83,0.9854,N/A (n≤p),✅ Excellent,0.439
+Lasso,orig,1.1161,1.2691,21.68,0.984,0.9543,✅ Excellent,0.027
+AdaBoost,eng,1.1481,1.3564,21.47,0.9817,N/A (n≤p),✅ Excellent,0.333
+Decision Tree,eng,1.119,1.3844,16.17,0.981,N/A (n≤p),✅ Excellent,0.017
+ElasticNet,orig,1.225,1.4147,20.96,0.9801,0.9433,✅ Excellent,0.028
+Ridge,orig,1.2483,1.4794,20.11,0.9783,0.938,✅ Excellent,0.032
+KNN,orig,1.3714,1.6753,20.98,0.9722,0.9204,✅ Excellent,0.013

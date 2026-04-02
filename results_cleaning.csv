@@ -1,0 +1,5 @@
+Strategy,Rows Kept,Rows Removed,% Removed
+Raw,144,0,0.0
+IQR (1.5×),105,39,27.08
+Isolation Forest (5%),136,8,5.56
+Z-Score (|Z|>3),140,4,2.78

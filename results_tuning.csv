@@ -1,0 +1,3 @@
+Model,Search,Best CV R²,MAE,RMSE,MAPE (%),R²,Adj R²,Quality
+Extra Trees,Randomized,0.9921,0.6622,0.7825,13.26,0.9939,N/A (n≤p),✅ Excellent
+Gradient Boosting,Randomized,0.9894,0.6901,0.8078,14.12,0.9935,N/A (n≤p),✅ Excellent
